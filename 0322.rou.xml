@@ -1,0 +1,12 @@
+<routes>
+        <vType id="HV" accel="5" decel="8" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" 
+        guiShape="passenger" color="Yellow" />
+        <vType id="CAV" accel="5" decel="8" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" 
+        guiShape="passenger" color="red" />
+        <vType id="Pseudo_HV" accel="5" decel="8" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" 
+        guiShape="passenger" color="Blue" RealVeh="Default" />
+
+        <route id="right" edges="E3 E0 E1 E2" />
+
+        
+</routes>
